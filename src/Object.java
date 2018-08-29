@@ -19,13 +19,16 @@ public class Object {
     一个参数是int a，另一个参数是 int a，int b 这样就可以写成两个
     */
     public Object() {
+
         instanceVariable2 = 1.0f;
     }
-    //初始化构造体. myObject1初始化后 instanceVariable2 的值 才是1.0f。 任何成员变量（从1-10）都是初始化（= new Object()）之后才生效
-    //Object myObject1 是声明。 后半句才是初始化
-    //Object myObject1 = new Object();  这是调用没传参的constructor
+    /*
+    初始化构造体. myObject1初始化后 instanceVariable2 的值 才是1.0f。 任何成员变量（从1-10）都是初始化（= new Object()）之后才生效
+    Object myObject1 是声明。 后半句才是初始化
+    Object myObject1 = new Object();  这是调用没传参的constructor
+     */
 
-    //第二种构造体 英文是constructor
+    //第二种构造体(constructor)
     public Object(double instanceVariable4_2, String instanceVariable6_2) {
         this();  //这是在调用同一类中的第一个Object（instanceVariable4）。
         this.instanceVariable4 = instanceVariable4_2;
