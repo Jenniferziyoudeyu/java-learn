@@ -6,4 +6,6 @@ if [ -z "./config" ]; then
     echo "username=xxx" >> "./config"
 fi
 
+echo "This is new changes from master branch"
+
 
