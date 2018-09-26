@@ -54,8 +54,48 @@ public class SortAlgorithms {
     void bubbleSort(int[] array) {
         for (int i = array.length - 1; i >= 0; i--) {
             for (int j = 0; j < i; j++) {
-                swap(array, j, j + 1);
+                if (array[j] > array[j + 1]) {
+                    swap(array, j, j + 1);
+                }
             }
+        }
+    }
+
+    void selectionSort(int[] array) {
+        for (int i = 0; i < array.length; i++) { //选择范围。 {1，2，3} i = 0时从"1"开始。i = 1时，从"2"开始。。。
+             /*
+             把左节点当成最小数。在for循环里不存在array为空的情况，如果为空，不进行for循环。
+             如果在for循环外设置int min，需要考虑array为空的情况。
+             此时min设置成最大值，这样和array里的数字比较一次 最小值就成为array里的数值
+             int min = Integer.MAX_VALUE;
+              */
+            int min = array[i];
+            //设置最小值的角标 minIndex
+            int minIndex = i;
+            for (int j = i; j < array.length; j++) {
+                if (array[j] < min) {
+                    min = array[j];
+                    minIndex = j;
+                }
+            }
+            //在j loop 外面 ！！！ 在 i loop 里面 ！！！
+            swap(array, i, minIndex);
+        }
+    }
+
+    void insertSort(int[] array) {
+        //corner case。array为空，null.length会崩溃
+        if (array == null) return;
+        for (int i = 0; i < array.length; i++) {
+            int temp = array[i];
+            int index = i;
+            for (int j = i; j > 0; j--) {
+                if (temp < array[j - 1]) {
+                    array[j] = array[j - 1];
+                    index = j - 1;
+                }
+             }
+            array[index] = temp;
         }
     }
 
