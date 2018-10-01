@@ -1,4 +1,4 @@
-package laiOffer;
+package laiOffer.class_1_array_sort;
 
 public class Day1Array {
     //打印int array里的所有元素
