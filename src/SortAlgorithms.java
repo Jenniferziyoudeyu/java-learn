@@ -30,7 +30,6 @@ public class SortAlgorithms {
     void func2(int m) {
         for (int i = 0; i < m; i++) {
             for (int j = i + 1; j <= m; j++) {
-
             }
         }
     }
