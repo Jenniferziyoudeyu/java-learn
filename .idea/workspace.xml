@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50dca94e-e7e6-40ae-8d60-8e590a612969" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/class_2_recursion_binarysearch/CalculateAPowerOfB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class_2_recursion_binarysearch/binarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50dca94e-e7e6-40ae-8d60-8e590a612969" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +13,7 @@
     <session id="1061026657">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="3" />
@@ -95,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/class_2_recursion_binarysearch/binarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+            <state relative-caret-position="200">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -158,8 +154,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="667" />
-    <option name="y" value="28" />
+    <option name="x" value="166" />
+    <option name="y" value="41" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
   </component>
@@ -199,7 +195,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538377379602" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538377436084" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -254,12 +250,12 @@
       <workItem from="1537396224712" duration="8532000" />
       <workItem from="1537816920259" duration="14213000" />
       <workItem from="1538256416208" duration="1220000" />
-      <workItem from="1538341707205" duration="6324000" />
+      <workItem from="1538341707205" duration="6488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104352000" />
+    <option name="totallyTimeSpent" value="104516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,10 +267,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="480" y="42" width="1440" height="823" extended-state="0" />
+    <frame x="166" y="41" width="1440" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22174536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22174536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -290,7 +286,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292011" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3178082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3178082" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3292011" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -420,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/class_2_recursion_binarysearch/binarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+        <state relative-caret-position="200">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>
