@@ -1,3 +1,4 @@
+import laiOffer.class_2_recursion_binarysearch.BinarySearch;
 import test.Home;
 
 public class Main {
@@ -41,6 +42,14 @@ public class Main {
         int[] arr = new int[2];
         int index = arr.length + 100;
 //        System.out.println(arr[index]);
+
+
+        BinarySearch binarySearch = new BinarySearch();
+        int[] binarySearchArray = {1,3,4,5,5,5,5,7,8,9,0};
+        int target = binarySearch.binarySearch(binarySearchArray,5);
+            System.out.print(target);
+
+
 
     }
 
@@ -101,6 +110,12 @@ public class Main {
         for (int k = start; k <= end; k++) {
             array[k] = temp[k];
         }
+
+
     }
+
+
+
+
 }
 
