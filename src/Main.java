@@ -1,4 +1,5 @@
 import laiOffer.class_2_recursion_binarysearch.BinarySearch;
+import laiOffer.class_2_recursion_binarysearch.CalculateAPowerOfB;
 import test.Home;
 
 public class Main {
@@ -47,9 +48,11 @@ public class Main {
         BinarySearch binarySearch = new BinarySearch();
         int[] binarySearchArray = {1,3,4,5,5,5,5,7,8,9,0};
         int target = binarySearch.binarySearch(binarySearchArray,5);
-            System.out.print(target);
+            System.out.println(target);
 
-
+        CalculateAPowerOfB aPowerOfB = new CalculateAPowerOfB();
+        long res = aPowerOfB.power(2,10);
+        System.out.println(res);
 
     }
 
