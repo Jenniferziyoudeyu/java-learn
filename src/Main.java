@@ -1,5 +1,6 @@
 import laiOffer.class_2_recursion_binarysearch.BinarySearch;
 import laiOffer.class_2_recursion_binarysearch.CalculateAPowerOfB;
+import laiOffer.class_2_recursion_binarysearch.SearchInSortMatrix1;
 import test.Home;
 
 public class Main {
@@ -53,6 +54,15 @@ public class Main {
         CalculateAPowerOfB aPowerOfB = new CalculateAPowerOfB();
         long res = aPowerOfB.power(2,10);
         System.out.println(res);
+
+        SearchInSortMatrix1 findTwoDIndex = new SearchInSortMatrix1();
+        int[][] twoDArray = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
+        int[] targetOfTwoD = findTwoDIndex.search(twoDArray,6);
+        for (int i = 0; i < targetOfTwoD.length; i++){
+            System.out.print(targetOfTwoD[i] + " "); //打印数组的时候要用for loop
+        }
+        System.out.println();
+
 
     }
 
