@@ -1,7 +1,4 @@
-import laiOffer.class_2_recursion_binarysearch.BinarySearch;
-import laiOffer.class_2_recursion_binarysearch.CalculateAPowerOfB;
-import laiOffer.class_2_recursion_binarysearch.FirstOccurance;
-import laiOffer.class_2_recursion_binarysearch.SearchInSortMatrix1;
+import laiOffer.class_2_recursion_binarysearch.*;
 import test.Home;
 
 public class Main {
@@ -63,11 +60,14 @@ public class Main {
 //            System.out.print(targetOfTwoD[i] + " "); //打印数组的时候要用for loop
 //        }
 //
-        FirstOccurance findFirstOccurIndex = new FirstOccurance();
-        int[] firstOccurArray = {0,1,4,6,6,6,6,6,6,6,6,6,6,6,6,7,8,8,8,8,9};
-        int firstOccurIndex = findFirstOccurIndex.firstOccur(firstOccurArray,6);
-        System.out.println(firstOccurIndex);
+//        FirstOccurance findFirstOccurIndex = new FirstOccurance();
+          int[] occurArray = {0,1,4,6,6,6,6,6,6,6,6,6,6,6,6,7,8,8,8,8,9};
+//        int firstOccurIndex = findFirstOccurIndex.firstOccur(occurArray,6);
+//        System.out.println(firstOccurIndex);
 
+        LastOccurance findLastOccurIndex = new LastOccurance();
+        int lastOccurIndex = findLastOccurIndex.lastOccur(occurArray,6);
+        System.out.println(lastOccurIndex);
 
     }
 
