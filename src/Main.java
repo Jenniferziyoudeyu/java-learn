@@ -1,5 +1,6 @@
 import laiOffer.class_2_recursion_binarysearch.BinarySearch;
 import laiOffer.class_2_recursion_binarysearch.CalculateAPowerOfB;
+import laiOffer.class_2_recursion_binarysearch.FirstOccurance;
 import laiOffer.class_2_recursion_binarysearch.SearchInSortMatrix1;
 import test.Home;
 
@@ -46,22 +47,26 @@ public class Main {
 //        System.out.println(arr[index]);
 
 
-        BinarySearch binarySearch = new BinarySearch();
-        int[] binarySearchArray = {1,3,4,5,5,5,5,7,8,9,0};
-        int target = binarySearch.binarySearch(binarySearchArray,5);
-            System.out.println(target);
-
-        CalculateAPowerOfB aPowerOfB = new CalculateAPowerOfB();
-        long res = aPowerOfB.power(2,10);
-        System.out.println(res);
-
-        SearchInSortMatrix1 findTwoDIndex = new SearchInSortMatrix1();
-        int[][] twoDArray = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
-        int[] targetOfTwoD = findTwoDIndex.search(twoDArray,6);
-        for (int i = 0; i < targetOfTwoD.length; i++){
-            System.out.print(targetOfTwoD[i] + " "); //打印数组的时候要用for loop
-        }
-        System.out.println();
+//        BinarySearch binarySearch = new BinarySearch();
+//        int[] binarySearchArray = {1,3,4,5,5,5,5,7,8,9,0};
+//        int target = binarySearch.binarySearch(binarySearchArray,5);
+//            System.out.println(target);
+//
+//        CalculateAPowerOfB aPowerOfB = new CalculateAPowerOfB();
+//        long res = aPowerOfB.power(2,10);
+//        System.out.println(res);
+//
+//        SearchInSortMatrix1 findTwoDIndex = new SearchInSortMatrix1();
+//        int[][] twoDArray = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
+//        int[] targetOfTwoD = findTwoDIndex.search(twoDArray,6);
+//        for (int i = 0; i < targetOfTwoD.length; i++){
+//            System.out.print(targetOfTwoD[i] + " "); //打印数组的时候要用for loop
+//        }
+//
+        FirstOccurance findFirstOccurIndex = new FirstOccurance();
+        int[] firstOccurArray = {0,1,4,6,6,6,6,6,6,6,6,6,6,6,6,7,8,8,8,8,9};
+        int firstOccurIndex = findFirstOccurIndex.firstOccur(firstOccurArray,6);
+        System.out.println(firstOccurIndex);
 
 
     }
