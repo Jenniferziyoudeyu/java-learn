@@ -49,9 +49,12 @@ public class SortAlgorithms {
 
     空间复杂度是 i和j 同时存在 = 2 = O(1);
      */
-
+    // comment sort: selection sort an array[]
+    //function signiture 分三部分： function名字：bubbleSort，return type：void， input argument/primtor:int[] array
     void bubbleSort(int[] array) {
+        //outer loop: how many iterations 遍历。规定要run多少个iteration
         for (int i = array.length - 1; i >= 0; i--) {
+            // inner loop: find the max from the rest elements 找没排好序的元素中最小值是谁
             for (int j = 0; j < i; j++) {
                 if (array[j] > array[j + 1]) {
                     swap(array, j, j + 1);
@@ -81,6 +84,25 @@ public class SortAlgorithms {
             swap(array, i, minIndex);
         }
     }
+    /*
+    时间复杂度分析：
+    for (int i = 0; i < array.length; i++)
+    for (int j = i; j < array.length; j++)
+    iteration i = 0： inner （0，1...array.length - 1）= array.length
+    iteration i = 1： inner （1，2...array.length - 1）= array.length - 1
+    iteration i = 2： inner （2，3...array.length - 1）= array.length - 2
+    .
+    .
+    .
+    iteration i = array.length - 2： inner （array.length - 2,array.length - 1）= 2
+    iteration i = array.length - 1： inner （array.length - 1）= 1
+
+    1+2+3+...+array.length
+    也就是
+    1+2+3+...+n
+    = n(n+1)/2   --> n^2 --> O(n^2)
+
+     */
 
     void insertSort(int[] array) {
         //corner case。array为空，null.length会崩溃
@@ -98,6 +120,7 @@ public class SortAlgorithms {
         }
     }
 
+    //把没排好序的元素中最小值与没排好序array的最左端第i个数 互换位置。
     private void swap(int[] array, int i, int j) {
         int temp = array[i];
         array[i] = array[j];
