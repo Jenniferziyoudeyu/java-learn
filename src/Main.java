@@ -65,9 +65,15 @@ public class Main {
 //        int firstOccurIndex = findFirstOccurIndex.firstOccur(occurArray,6);
 //        System.out.println(firstOccurIndex);
 
-        LastOccurance findLastOccurIndex = new LastOccurance();
-        int lastOccurIndex = findLastOccurIndex.lastOccur(occurArray,6);
-        System.out.println(lastOccurIndex);
+//        LastOccurance findLastOccurIndex = new LastOccurance();
+//        int lastOccurIndex = findLastOccurIndex.lastOccur(occurArray,6);
+//        System.out.println(lastOccurIndex);
+
+        KCloestInSortedArray kCloset = new KCloestInSortedArray();
+        int []kClosetNum = kCloset.kClosest(occurArray, 5,3);
+        for (int i = 0; i < kClosetNum.length; i++) {
+            System.out.print(kClosetNum[i] + ",");
+        }
 
     }
 
