@@ -19,25 +19,30 @@ package laiOffer.class_2_recursion_binarysearch;
 
 public class KCloestInSortedArray {
     public int[] kClosest(int[] array, int target, int k) {
-        if (array == null || array.length == 0) return new int[]{};
-        int left = 0; int right = array.length - 1;
-        while (left <= right) {
-            int mid = left + (right - left)/2;
-            if (array[mid] >= target) right = mid;
-            else if (array[mid] < target) left = mid + 1;
-        }
-        int res[] = new int[k];
-        for(int i = 0; i < k ; i++) {
-            if (left < 0 && right < array.length) {
-                res[i] = array[right++];
-            } else if (right > array.length && left >= 0) {
-                res[i] = array[left--];
-            } else if ( Math.abs(array[left] - target) < Math.abs(array[right] - target)) {
-                res[i] = array[left--];
-            } else {
-                res[i] = array[right++];
-            }
-        }
-        return res;
+       if (array == null || array.length == 0) return new int[]{};
+       int left = 0, right = array.length - 1;
+       while (left < right - 1) {
+           int mid = left + (right - left)/2;
+           if (array[mid] <= target) {
+               left = mid;
+           }
+           else if (array[mid] > target) {
+               right = mid;
+           }
+       }
+
+       int result[] = new int[k];
+       for (int i = 0; i < k; i++) {
+           if (left < 0 && right < array.length) {
+               result[i] = array[right++];
+           } else if (left >= 0 && right >=array.length) {
+               result[i] = array[left--];
+           } else if (Math.abs(array[left] - target) < Math.abs(array[right] - target)) {
+               result[i] = array[left--];
+           } else {
+               result[i] = array[right++];
+           }
+       }
+       return result;
     }
 }
