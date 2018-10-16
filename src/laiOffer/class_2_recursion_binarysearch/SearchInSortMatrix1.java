@@ -23,18 +23,19 @@ package laiOffer.class_2_recursion_binarysearch;
  */
 
 public class SearchInSortMatrix1 {
-    public int[] search(int[][] matrix, int target) {
-        if (matrix.length == 0 || matrix[0].length == 0) return new int[] {-1,-1};
-        int row = matrix[0].length; int col = matrix.length;
-        int start = 0; int end = row * col - 1;
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
-            int r = mid % col;
-            int c = mid / col;
-            if (matrix[r][c] == target) return new int[] {r,c};
-            else if (matrix[r][c] > target) end = mid - 1;
-            else start = mid + 1;
-        }
-        return new int[] {-1, -1};
-    }
+//    public int[] search(int[][] matrix, int target) {
+//        if (matrix.length == 0 || matrix[0].length == 0) return new int[] {-1,-1};
+//        int row = matrix[0].length; int col = matrix.length;
+//        int start = 0; int end = row * col - 1;
+//        while (start <= end) {
+//            int mid = start + (end - start) / 2;
+//            int r = mid % col;
+//            int c = mid / col;
+//            if (matrix[r][c] == target) return new int[] {r,c};
+//            else if (matrix[r][c] > target) end = mid - 1;
+//            else start = mid + 1;
+//        }
+//        return new int[] {-1, -1};
+//    }
+
 }
