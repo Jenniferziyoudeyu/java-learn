@@ -31,7 +31,7 @@ public class queueByTwoStacks {
 
     public Integer peek() {
         pushAllToStack2();
-        return stack2.isEmpty()? null : stack2.pop();
+        return stack2.isEmpty()? null : stack2.peek();
     }
 
     public int size() {
