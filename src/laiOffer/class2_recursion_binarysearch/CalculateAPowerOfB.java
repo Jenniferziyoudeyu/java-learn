@@ -1,4 +1,4 @@
-package laiOffer.class_2_recursion_binarysearch;
+package laiOffer.class2_recursion_binarysearch;
 /**
  * Description
  * Evaluate a to the power of b, assuming both a and b are integers and b is non-negative.

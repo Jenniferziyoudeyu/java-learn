@@ -1,4 +1,4 @@
-package laiOffer.class_1_array_sort;
+package laiOffer.class1_array_sort;
 
 public class SelectionSort {
 

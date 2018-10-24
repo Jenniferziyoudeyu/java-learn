@@ -1,4 +1,4 @@
-package laiOffer.class_2_recursion_binarysearch;
+package laiOffer.class2_recursion_binarysearch;
 /**
  * Description
  * Given a target integer T and an integer array A sorted in ascending order, find the index i such that A[i] == T or return -1 if there is no such index.
