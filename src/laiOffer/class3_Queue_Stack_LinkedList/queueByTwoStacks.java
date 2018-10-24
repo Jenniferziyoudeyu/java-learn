@@ -22,7 +22,7 @@ public class queueByTwoStacks {
 
     public Integer poll() {
         pushAllToStack2();
-        return stack2.isEmpty()? 0:stack2.pop();
+        return stack2.isEmpty()? null:stack2.pop();
     }
 
     public void offer(int element) {
@@ -31,7 +31,7 @@ public class queueByTwoStacks {
 
     public Integer peek() {
         pushAllToStack2();
-        return stack2.isEmpty()? 0 : stack2.pop();
+        return stack2.isEmpty()? null : stack2.pop();
     }
 
     public int size() {
