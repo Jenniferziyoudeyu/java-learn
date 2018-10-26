@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7de9494f-d291-47b0-90ed-eff661b026da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/middleNodeOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/middleNodeOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/InsertInSortedLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/LinkedListHasACycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +30,7 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="9479" />
+          <entry key="java" value="9999" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -37,14 +39,14 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="17" />
+          <entry key="java" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -52,7 +54,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="9479" />
+          <entry key="JAVA" value="9999" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -139,11 +141,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/middleNodeOfLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="422">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/LinkedListHasACycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/InsertInSortedLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,24 +180,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/laiOffer/class2_recursion_binarysearch/KCloestInSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -207,6 +216,8 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/reverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/middleNodeOfLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/InsertInSortedLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/LinkedListHasACycle.java" />
       </list>
     </option>
   </component>
@@ -262,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540514543414" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540530112667" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -313,12 +324,12 @@
       <workItem from="1538862744615" duration="3992000" />
       <workItem from="1538934504591" duration="5000" />
       <workItem from="1539639827681" duration="3659000" />
-      <workItem from="1540414753471" duration="14067000" />
+      <workItem from="1540414753471" duration="16734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53716000" />
+    <option name="totallyTimeSpent" value="56383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +344,7 @@
     <frame x="68" y="39" width="1476" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23849373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23849373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,7 +360,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32831737" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32831737" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31737345" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31737345" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32831737" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -585,8 +596,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/middleNodeOfLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="422">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/InsertInSortedLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/laiOffer/class3_Queue_Stack_LinkedList/LinkedListHasACycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
