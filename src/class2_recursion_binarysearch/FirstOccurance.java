@@ -1,4 +1,4 @@
-package laiOffer.class2_recursion_binarysearch;
+package class2_recursion_binarysearch;
 
 public class FirstOccurance {
     /**

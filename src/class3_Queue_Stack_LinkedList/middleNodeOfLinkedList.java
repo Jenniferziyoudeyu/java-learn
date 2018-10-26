@@ -1,6 +1,6 @@
-package laiOffer.class3_Queue_Stack_LinkedList;
+package class3_Queue_Stack_LinkedList;
 
-import laiOffer.ListNode;
+import ListNode;
 
 /**
  * Description
