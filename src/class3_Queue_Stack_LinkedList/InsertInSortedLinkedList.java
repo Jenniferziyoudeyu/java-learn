@@ -1,7 +1,5 @@
 package class3_Queue_Stack_LinkedList;
 
-import ListNode;
-
 /**
  *
  Description
@@ -48,6 +46,7 @@ public class InsertInSortedLinkedList {
         return res;
     }
 
+
     public ListNode insert2(ListNode head, int value) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
@@ -57,6 +56,7 @@ public class InsertInSortedLinkedList {
             head = head.next;
         }
         ListNode newNode = new ListNode(value);
+
         pre.next = newNode;
         newNode.next = head;
         return dummy.next;

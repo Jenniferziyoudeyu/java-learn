@@ -1,6 +1,5 @@
 package class3_Queue_Stack_LinkedList;
 
-import ListNode;
 
 public class LinkedListHasACycle {
     public boolean hasCycle(ListNode head) {
