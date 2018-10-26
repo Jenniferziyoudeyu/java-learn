@@ -1,7 +1,5 @@
 package class3_Queue_Stack_LinkedList;
 
-import ListNode;
-
 /**
  * Description
  * Reverse a singly-linked list.
