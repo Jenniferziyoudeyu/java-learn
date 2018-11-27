@@ -32,7 +32,7 @@ public class Home {
                     minIndex = j;
                 }
             }
-            swap(array, i, minIndex);
+            Swap(array, i, minIndex);
         }
     }
     */

@@ -10,9 +10,22 @@ import java.util.List;
 
 public class BubbleSort {
     //array[]是待排序数组， n是array长度
-    void BubbleSort (int array[], int n) {
-        int i, j, k;
+    void BubbleSort (int array[]) {
+        for (int i = array.length - 1; i >= 0; i--) {
+            for (int j = 0; j < i; j++) {
+                if (array[j] > array[j + 1]) {
+                    swap(array, j , j+1);
+                }
 
+            }
+        }
+
+    }
+    public void swap (int[] array, int i, int j) {
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
     }
 
 }
+

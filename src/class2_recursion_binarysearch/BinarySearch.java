@@ -21,7 +21,7 @@ public class BinarySearch {
         if (a == null || a.length == 0) return -1;
         int left = 0, right = a.length - 1;
         while (right >= left) {
-            int mid = left + (right - left)/2;
+            int mid = left + (right - left) / 2;
             if (a[mid] == target) return mid;
             else if (a[mid] > target) {
                 right = mid - 1;
