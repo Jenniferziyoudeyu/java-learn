@@ -16,5 +16,37 @@ package class1_array_sort;
      */
 
 public class MergeSort {
+    public int[] mergeSort (int[] array) {
+        mergeSortHelper(array, new int[array.length], 0, array.length - 1);
+        return array;
+    }
+
+    private void mergeSortHelper (int[]array, int[] helper, int start, int end) {
+        if (start < end) return;
+        int mid = start + (end - start)/2;
+        mergeSortHelper(array, helper, start, mid);
+        mergeSortHelper(array, helper,mid + 1, end);
+        int i = start, j = mid + 1;
+        int helperIndex = start;
+        while (i <= mid || j <= end) {
+            int left = i <= mid ? array[i] : Integer.MAX_VALUE;
+            int right = j <= end ? array[j] : Integer.MAX_VALUE;
+            if (left < right) {
+                helper[helperIndex] = left;
+                i++;
+            } else {
+                helper[helperIndex] = right;
+                j++;
+            }
+            helperIndex++;
+        }
+        for (int a = start; a <= end; a++) {
+            array[a] = helper[a];
+        }
+
+    }
 
 }
+
+
+

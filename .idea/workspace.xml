@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7de9494f-d291-47b0-90ed-eff661b026da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/class1_array_sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1_array_sort/Swap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingleNode/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleNode/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1_array_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1_array_sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class1_array_sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1_array_sort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class2_recursion_binarysearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class2_recursion_binarysearch/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class1_array_sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1_array_sort/MergeSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,16 +26,16 @@
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="13302" />
+          <entry key="java" value="14158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -66,7 +59,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="13302" />
+          <entry key="JAVA" value="14158" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -131,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/class1_array_sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="365">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -226,8 +219,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="535" />
-    <option name="y" value="23" />
+    <option name="x" value="649" />
+    <option name="y" value="59" />
     <option name="width" value="905" />
     <option name="height" value="823" />
   </component>
@@ -237,8 +230,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,11 +332,12 @@
       <workItem from="1542410561638" duration="495000" />
       <workItem from="1542501073012" duration="12810000" />
       <workItem from="1543274932672" duration="170000" />
+      <workItem from="1543358464846" duration="8673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87430000" />
+    <option name="totallyTimeSpent" value="96103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,9 +349,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="535" y="23" width="905" height="823" extended-state="0" />
+    <frame x="649" y="59" width="905" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37543452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38354576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -373,7 +368,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32831737" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32831737" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31737345" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31737345" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32831737" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
@@ -522,10 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,10 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,9 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,9 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/class1_array_sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="365">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
