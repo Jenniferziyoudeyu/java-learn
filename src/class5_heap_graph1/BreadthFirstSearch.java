@@ -4,7 +4,9 @@ package class5_heap_graph1;
 
 import SingleNode.Node;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class BreadthFirstSearch {
@@ -20,7 +22,11 @@ public class BreadthFirstSearch {
                     q.offer(n.left);
                 if (n.right != null)
                     q.offer(n.right);
+                System.out.println(n +" ");
             }
+            System.out.println();
+            List<Integer> newList = new ArrayList<>(100);
+//          规定一个Integer类型的list  <>泛型 里面加上list的类型
         }
 
 }
