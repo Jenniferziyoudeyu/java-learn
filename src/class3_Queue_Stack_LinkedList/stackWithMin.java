@@ -13,17 +13,25 @@ import java.util.Stack;
  * min() - return the current min value in the stack.
  */
 
+/*
+这道题求min，和queueByTwoStacks那个题不同之处是
+这道题，push的时候 第一次push或 push最小值的时候，是同时往stack1和stack2里面push
+ */
+
 public class stackWithMin {
     //在外面声明，在constructor里面初始化,初始化的两个stack都不是null
     Stack<Integer> stack1;
     Stack<Integer> stack2;
 
+    //constructor 保证stack1， stack2 不为空
     public stackWithMin() {
         this.stack1 = new Stack<Integer>();
         this.stack2 = new Stack<Integer>();
     }
 
     public int pop() {
+        //pop不考虑stack2，所以1为空的时候才返回-1.else if的时候stack2为空的时候
+        //
         if (stack1.isEmpty()) return -1;
         else if (!stack2.isEmpty() && stack1.peek().equals(stack2.peek())) {
             stack2.pop();
@@ -32,8 +40,11 @@ public class stackWithMin {
     }
 
     public void push(int element) {
-        //stack1每次push，当新element《= Stack Overflow
-        //第二行，push第一个数的时候stack2里面没有数，不能peek。所以要写条件 stack2也是空的时候
+        /*
+        stack1每次push，当新element《= Stack Overflow
+        第二行，push第一个数的时候stack2里面没有数，不能peek。所以要写条件 stack2
+        为空的时候不能peek。所以要先判断stack2是否为空
+        */
         stack1.push(element);
         if (stack2.isEmpty() || element <= stack2.peek() ) {
             stack2.push(element);
