@@ -15,6 +15,9 @@ public class BreadthFirstSearch {
         Queue<Node> q = new LinkedList<Node>();
         q.offer(root);
         while (!q.isEmpty()) {
+            //size = # of generated nodes in the next layer
+//            因为上层的都出去了，只有当前层的节点在里面，不能直接写i<q.size 因为不断pop出来，
+//            q.size是不断变化的
             int size = q.size();
             for (int i = 0; i < size; i++) {
                 Node n = q.remove();

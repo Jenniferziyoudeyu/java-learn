@@ -55,7 +55,7 @@ Space = O(b）
 public class CalculateAPowerOfB {
     public int CalculateAPowerOfB (int a, int b) {
         if (b == 0) return 1; //base case
-        return CalculateAPowerOfB(a , b - 1);//一直到 b == 0停止，触底反弹，一级一级得到计算结果
+        return CalculateAPowerOfB(a , b - 1) * a;//一直到 b == 0停止，触底反弹，一级一级得到计算结果
 
 
 
