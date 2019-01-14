@@ -45,7 +45,7 @@ public class tree_Traverse {
 //    public List<List<Integer>> levelOrderTraverse(TreeNode root) {
 ////        List<List<Integer>> list = new ArrayList<>();
 ////        return list;
-//        //初始化object
+       //初始化object
 //        List<Integer> list = new ArrayList<>();
 //        Map<Integer, Integer> map = new HashMap<>();
 //        Set<Integer> set = new HashSet<>();
@@ -64,6 +64,7 @@ public class tree_Traverse {
         while (!queue.isEmpty()) {
             int size = queue.size();
             List<Integer> innerList = new ArrayList<>();
+            //第一次只有一个root node，size = 1. 第二次 由1得出左右叶节点， queue。size = 2
             for (int i = 0; i < size; i++) {
                 TreeNode poll = queue.poll();
                 innerList.add(poll.value);
@@ -95,15 +96,27 @@ public class tree_Traverse {
 //                }
 //                if (poll.left != null) queue.offer(poll.left);
 //                if (poll.right != null) queue.offer(poll.right);
+                //找到临界点.左边不为空 如果有left就走B:offer出来。没有点的话就走C。下次for循环再回来再判断的话 走到下一个node因为走过C了所以走A
                 if (poll.left != null) {
+                    //A
                     if (lastNodeThatHasOnlyLeftChildOrNoneChild) return false;
+                    //B
                     queue.offer(poll.left);
                 } else {
+                    //C
                     lastNodeThatHasOnlyLeftChildOrNoneChild = true;
                 }
+                //左节点有没有都不影响要判断右节点。
+                //右边不为空 如果有right就走M:offer出来。没有点的话就走P。下次再for循环 判断是走A或P 一直到for循环结束 如果一直没有
+                //返回值，就return true
                 if (poll.right != null) {
+                    //M
                     if (lastNodeThatHasOnlyLeftChildOrNoneChild) return false;
+                    //M
                     queue.offer(poll.right);
+                } else {
+                    //P
+                    lastNodeThatHasOnlyLeftChildOrNoneChild = true;
                 }
             }
         }
